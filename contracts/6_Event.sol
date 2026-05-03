@@ -3,7 +3,7 @@ pragma solidity >=0.8.2 <0.9.0;
 
 contract Eventos {
     
-    uint256 private cantidad;
+    uint256 private cantidad = 10;
     
     event CambioValorCantidad (address invocador,uint256 nuevoValor);
 
